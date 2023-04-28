@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5095bdc5-eaf7-4f12-9c3e-9184e251fb5a" name="Changes" comment="Neoporezive isplate 27.04.2023." />
+    <list default="true" id="5095bdc5-eaf7-4f12-9c3e-9184e251fb5a" name="Changes" comment="Neoporezive isplate 27.04.2023.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MySQLWork/CreateIsplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MySQLWork/CreateOsobe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MySQLWork/CreateUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MySQLWork/CreateVrsteIsplata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dat/mysql_connection.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dat/mysql_connection.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Authorisation/boxRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Authorisation/boxRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SQLiteWork/CreateUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SQLiteWork/CreateUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servis/SendMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servis/SendMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/provjera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Authorisation/boxRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Authorisation/boxRegistration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SQLiteWork/CreateUsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SQLiteWork/CreateUsers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Servis/SendMail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servis/SendMail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/provjera.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682603338998</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Neoporezive isplate 27.04.2023.">
+      <created>1682604134155</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682604134155</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

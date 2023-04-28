@@ -30,10 +30,9 @@ public class SendMail {
             message.setRecipients(Message.RecipientType.TO,
                     InternetAddress.parse(email));
             message.setSubject("Potvrda registracije");
-            message.setText("Vaš autentikacijski broj: " + kontrola.toString());
+            message.setText("Vaš autorizacijski kod: " + kontrola.toString());
             Transport.send(message);
         } catch (MessagingException e) {
-
             throw new RuntimeException(e);
         }
     }

@@ -6,6 +6,8 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.*;
+import java.util.Objects;
+
 import static Servis.DatabaseConnection.getConnection;
 
 public class boxRegistration extends JDialog {
@@ -64,38 +66,46 @@ public class boxRegistration extends JDialog {
                     JOptionPane.ERROR_MESSAGE);
             return;
         }
-        boolean exists = emailExists(email);
-        if (exists) {
-            JOptionPane.showMessageDialog(this,
-                    "Email adresa je već iskorištena!",
-                    "Pokušajte ponovno!",
-                    JOptionPane.ERROR_MESSAGE);
-            return;
-        }
-//        Slanje autentikacijskog koda:
-        int kontrola = new RandomNumberGenerator().generateRandomNumber();
 
-        SendMail.sendMail(email, kontrola);
+        boolean emailValidity = emailInputControl();
 
-        String kontrolaTemp = Integer.toString(kontrola);
+        if (emailValidity) {
 
-        String odgovor = JOptionPane.showInputDialog(this, "Upišite kod");
-        if (!odgovor.equals(kontrolaTemp)) {
-            JOptionPane.showMessageDialog(this,
-                    "Potvrda autentikacijskog broja je netočna!",
-                    "Greška404",
-                    JOptionPane.ERROR_MESSAGE);
-            dispose();
-        } else {
-            user = addUserToDatabase(name, email, phone, address, password);
-        }
-        if (user != null) {
-            dispose();
-        } else {
-            JOptionPane.showMessageDialog(this,
-                    "Neuspjela registracija!",
-                    "Pokušajte ponovno!",
-                    JOptionPane.ERROR_MESSAGE);
+            boolean exists = emailExists(email);
+            if (exists) {
+                JOptionPane.showMessageDialog(this,
+                        "Email adresa je već iskorištena!",
+                        "Pokušajte ponovno!",
+                        JOptionPane.ERROR_MESSAGE);
+                return;
+            }
+//        Slanje autorizacijskog koda:
+            int kontrola = new RandomNumberGenerator().generateRandomNumber();
+
+            SendMail.sendMail(email, kontrola);
+
+            String kontrolaTemp = Integer.toString(kontrola);
+
+            String odgovor = JOptionPane.showInputDialog(this, "Upišite kod");
+            if (odgovor == null) {
+                System.exit(0);
+            } else if (!odgovor.equals(kontrolaTemp)) {
+                JOptionPane.showMessageDialog(this,
+                        "Potvrda autorizacijskog broja je netočna!",
+                        "Greška404",
+                        JOptionPane.ERROR_MESSAGE);
+                dispose();
+            } else {
+                user = addUserToDatabase(name, email, phone, address, password);
+            }
+            if (user != null) {
+                dispose();
+            } else {
+                JOptionPane.showMessageDialog(this,
+                        "Neuspjela registracija!",
+                        "Pokušajte ponovno!",
+                        JOptionPane.ERROR_MESSAGE);
+            }
         }
     }
     public static boolean emailExists(String email) {
@@ -140,6 +150,45 @@ public class boxRegistration extends JDialog {
 
         DatabaseUtils.insertIntoTable( "users", user);
         return user;
+    }
+    private boolean emailInputControl() {
+        String email = tfEmail.getText();
+        StringBuilder sb = new StringBuilder();
+        char[] chars = email.toCharArray();
+        int validityCounter;
+        int atSymbolCounter = 0;
+        boolean moze_dalje = true;
+
+        String[] validChars = {
+                ".", "-", "_", "@", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"
+        };
+
+        for (char ch : chars) {
+            if (!Character.isLetter(ch)) {
+                validityCounter = 0;
+                for (String str : validChars) {
+                    if (Objects.equals(Character.toString(ch), str)) {
+                        validityCounter += 1;
+                    }
+                }
+                if (Objects.equals(Character.toString(ch), "@")) {
+                    atSymbolCounter += 1;
+                }
+                if (validityCounter > 0) {
+                    sb.append(ch);
+                }
+            } else {
+                sb.append(ch);
+            }
+        }
+        if (!Objects.equals(sb.toString(), email) || atSymbolCounter != 1) {
+            JOptionPane.showMessageDialog(this,
+                    "Neispravan unos Email adrese!",
+                    "Pokušajte ponovno!",
+                    JOptionPane.ERROR_MESSAGE);
+            moze_dalje = false;
+        }
+        return moze_dalje;
     }
     public static void main(String[] args) {
         boxRegistration myForm = new boxRegistration(null);

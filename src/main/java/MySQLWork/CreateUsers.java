@@ -1,9 +1,11 @@
-package SQLiteWork;
+package MySQLWork;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
+
 import static Servis.DatabaseConnection.getConnection;
+
 public class CreateUsers {
     public static void main(String[] args) {
         Connection connection = null;
@@ -14,13 +16,15 @@ public class CreateUsers {
             System.out.println("Baza podataka uspješno otvorena.");
 
             statement = connection.createStatement();
-            String sql = "CREATE TABLE users " +
-                    "(id INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                    " name TEXT, " +
-                    " email TEXT, " +
-                    " password TEXT, " +
-                    " phone TEXT, " +
-                    " address TEXT)";
+            String sql = "CREATE TABLE `users` (\n" +
+                    "  `id` int NOT NULL AUTO_INCREMENT,\n" +
+                    "  `name` varchar(200) NOT NULL,\n" +
+                    "  `email` varchar(200) NOT NULL,\n" +
+                    "  `password` varchar(200) NOT NULL,\n" +
+                    "  `phone` varchar(200) DEFAULT NULL,\n" +
+                    "  `address` varchar(200) DEFAULT NULL,\n" +
+                    "  PRIMARY KEY (`id`)\n" +
+                    ")";
             statement.executeUpdate(sql);
             System.out.println("Tablica users uspješno kreirana u bazi podataka.");
 
