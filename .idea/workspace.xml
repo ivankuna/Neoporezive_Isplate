@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5095bdc5-eaf7-4f12-9c3e-9184e251fb5a" name="Changes" comment="Neoporezive isplate 28.04.2023.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5095bdc5-eaf7-4f12-9c3e-9184e251fb5a" name="Changes" comment="Neoporezive isplate 29.04.2023.">
       <change beforePath="$PROJECT_DIR$/dat/mysql_connection.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dat/mysql_connection.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servis/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servis/DatabaseConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,13 +107,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682694020807</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Neoporezive isplate 29.04.2023.">
+      <created>1682764555325</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682764555325</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Neoporezive isplate 29.04.2023.">
+      <created>1682764595844</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682764595844</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Neoporezive isplate 27.04.2023." />
     <MESSAGE value="Neoporezive isplate 28.04.2023." />
-    <option name="LAST_COMMIT_MESSAGE" value="Neoporezive isplate 28.04.2023." />
+    <MESSAGE value="Neoporezive isplate 29.04.2023." />
+    <option name="LAST_COMMIT_MESSAGE" value="Neoporezive isplate 29.04.2023." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
