@@ -1,4 +1,4 @@
 jdbc:mysql://aws.connect.psdb.cloud/isplate
-t*zoiyiggis*6uouvinnd*p
-p*scale_pw_z1KR9EajJuk32R3r*JRsgBe2VFVtXPupHOi2y5pSPWl*C
+tpvlejcm9452uf6dmve8
+pscale_pw_gTGBg0yX23JVfUAjbf6K4gv8UTpJrjuciyhACvRXGj2
 
