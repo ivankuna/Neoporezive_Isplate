@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5095bdc5-eaf7-4f12-9c3e-9184e251fb5a" name="Changes" comment="Neoporezive isplate 27.04.2023.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MySQLWork/CreateIsplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MySQLWork/CreateOsobe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MySQLWork/CreateUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MySQLWork/CreateVrsteIsplata.java" afterDir="false" />
+    <list default="true" id="5095bdc5-eaf7-4f12-9c3e-9184e251fb5a" name="Changes" comment="Neoporezive isplate 28.04.2023.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dat/mysql_connection.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dat/mysql_connection.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Authorisation/boxRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Authorisation/boxRegistration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SQLiteWork/CreateUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SQLiteWork/CreateUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servis/SendMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servis/SendMail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/provjera.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Authorisation/boxRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Authorisation/boxRegistration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SQLiteWork/CreateUsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SQLiteWork/CreateUsers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servis/SendMail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servis/SendMail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/provjera.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servis/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servis/DatabaseConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,18 +51,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/betas/IdeaProjects/Neoporezive_isplate_sqlite&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/betas/IdeaProjects/Neoporezive_isplate_sqlite",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Glavna" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Glavna" />
@@ -106,12 +95,27 @@
       <option name="project" value="LOCAL" />
       <updated>1682604134155</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Neoporezive isplate 28.04.2023.">
+      <created>1682694007673</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682694007673</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Neoporezive isplate 28.04.2023.">
+      <created>1682694020807</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682694020807</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Neoporezive isplate 27.04.2023." />
-    <option name="LAST_COMMIT_MESSAGE" value="Neoporezive isplate 27.04.2023." />
+    <MESSAGE value="Neoporezive isplate 28.04.2023." />
+    <option name="LAST_COMMIT_MESSAGE" value="Neoporezive isplate 28.04.2023." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -9,7 +9,7 @@ import static Servis.FileUtils.readTxt;
 
 public class DatabaseConnection {
     private static Connection conn = null;
-    private static String[] connectionInfo;
+    private static String[] connectionInfoTemp;
     private static final String[] conn_type;
 
     static {
@@ -32,11 +32,11 @@ public class DatabaseConnection {
         }
     }
     public static Connection getMySQLConnection() throws IOException {
-        connectionInfo = readTxt("dat/mysql_connection.txt", 3);
+        connectionInfoTemp = readTxt("dat/mysql_connection.txt", 3);
 
-        String URL = connectionInfo[0];
-        String USERNAME = connectionInfo[1];
-        String PASSWORD = connectionInfo[2];
+        String URL = connectionInfoTemp[0];
+        String USERNAME = connectionInfoTemp[1].replace("*", "");
+        String PASSWORD = connectionInfoTemp[2].replace("*", "");
 
         Connection conn = null;
         try {
@@ -48,13 +48,13 @@ public class DatabaseConnection {
         return conn;
     }
     public static Connection getSQLiteConnection() throws IOException {
-        connectionInfo = readTxt("dat/sqlite_connection.txt", 2);
+        connectionInfoTemp = readTxt("dat/sqlite_connection.txt", 2);
 
         try {
             closeConnection();
             if (conn == null || conn.isClosed()) {
-                Class.forName(connectionInfo[0]);
-                conn = DriverManager.getConnection(connectionInfo[1]);
+                Class.forName(connectionInfoTemp[0]);
+                conn = DriverManager.getConnection(connectionInfoTemp[1]);
             }
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
