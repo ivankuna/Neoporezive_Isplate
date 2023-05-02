@@ -4,9 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5095bdc5-eaf7-4f12-9c3e-9184e251fb5a" name="Changes" comment="Neoporezive isplate 29.04.2023. 002">
+    <list default="true" id="5095bdc5-eaf7-4f12-9c3e-9184e251fb5a" name="Changes" comment="Neoporezive isplate 30.04.2023. 002">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_21_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_4_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_4_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_angus_angus_activation_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_40_1_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dat/mysql_connection.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dat/mysql_connection.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neoporezive_isplate - ver 1.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Neoporezive_isplate - ver 1.2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/activation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-lang3-3.12.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mail.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-j-8.0.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/sqlite-jdbc-3.7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Podaci/Vlasnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Podaci/Vlasnik.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,18 +68,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/betas/IdeaProjects/Neoporezive_isplate_sqlite&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/betas/IdeaProjects/Neoporezive_isplate_sqlite",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Glavna" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Glavna" />
@@ -129,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682764719803</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Neoporezive isplate 30.04.2023. 002">
+      <created>1682848322134</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682848322135</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,7 +163,8 @@
     <MESSAGE value="Neoporezive isplate 28.04.2023." />
     <MESSAGE value="Neoporezive isplate 29.04.2023." />
     <MESSAGE value="Neoporezive isplate 29.04.2023. 002" />
-    <option name="LAST_COMMIT_MESSAGE" value="Neoporezive isplate 29.04.2023. 002" />
+    <MESSAGE value="Neoporezive isplate 30.04.2023. 002" />
+    <option name="LAST_COMMIT_MESSAGE" value="Neoporezive isplate 30.04.2023. 002" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
