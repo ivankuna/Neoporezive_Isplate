@@ -203,6 +203,94 @@ public class DatabaseUtils {
         }
         return rs;
     }
+    public static String[] readFromTable(String tableName, String columnName, int idNum) {
+        // SQL query to read a row from the table
+        String sql = "SELECT * FROM " + tableName + " WHERE " + columnName + " = ?";
+
+        try {
+            // Creating a connection to the database
+            Connection connection = getConnection();
+
+            // Preparing the SQL statement
+            PreparedStatement statement = connection.prepareStatement(sql);
+
+            // Setting the value of the parameter in the SQL query
+            statement.setInt(1, idNum);  // example: reading row with id=1
+
+            // Executing the SQL query
+            ResultSet resultSet = statement.executeQuery();
+
+            // Reading the values from the query result
+            if (resultSet.next()) {
+                ResultSetMetaData metaData = resultSet.getMetaData();
+                int columnCount = metaData.getColumnCount();
+
+                // Creating an array to store the row data
+                String[] rowData = new String[columnCount];
+
+                for (int i = 1; i <= columnCount; i++) {
+                    Object value = resultSet.getObject(i);
+                    if (value == null) {
+                        rowData[i - 1] = "";
+                    } else if (value instanceof Date) {
+                        rowData[i - 1] = ((Date) value).toString();
+                    } else if (value instanceof Integer) {
+                        rowData[i - 1] = Integer.toString((int) value);
+                    } else {
+                        rowData[i - 1] = value.toString();
+                    }
+                }
+                // Closing the resources
+                resultSet.close();
+                statement.close();
+                connection.close();
+
+                // Returning the row data
+                return rowData;
+            }
+            // Closing the resources
+            resultSet.close();
+            statement.close();
+            connection.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        // Returning null if the row is not found or if an error occurs
+        return null;
+    }
+    public static int getRowCount(String tableName) throws SQLException {
+        Connection conn = null;
+        Statement stmt = null;
+        int rowCount = 0;
+
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+
+            // Open a connection
+            conn = getConnection();
+
+            // Execute a query
+            stmt = conn.createStatement();
+            String sql = "SELECT COUNT(*) AS rowcount FROM " + tableName;
+            ResultSet rs = stmt.executeQuery(sql);
+
+            // Get the row count
+            if (rs.next()) {
+                rowCount = rs.getInt("rowcount");
+            }
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } finally {
+            // Close resources
+            if (stmt != null) {
+                stmt.close();
+            }
+            if (conn != null) {
+                conn.close();
+            }
+        }
+        return rowCount;
+    }
     public static void connectToDatabase (String tableName, JTable table) {
         try {
             TableModelFactory factory = new TableModelFactory();
