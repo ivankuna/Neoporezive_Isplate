@@ -84,8 +84,7 @@ public class Vlasnik {
     public void setOznaka(String oznaka) {
         this.oznaka = oznaka;
     }
-
-    public static void main(String[] args) throws IOException, JAXBException {
+    public static void createXMLVlasnik() throws IOException, JAXBException {
         String[] vlasnikInfo = readTxt("dat/vlasnik.txt", 8);
         Vlasnik vlasnik = new Vlasnik();
         vlasnik.setOib(vlasnikInfo[0]);
@@ -101,5 +100,14 @@ public class Vlasnik {
         Marshaller marshaller = jaxbContext.createMarshaller();
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
         marshaller.marshal(vlasnik, new File("xml/vlasnik.xml"));
+    }
+    public static void main(String[] args) {
+        try {
+            createXMLVlasnik();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (JAXBException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

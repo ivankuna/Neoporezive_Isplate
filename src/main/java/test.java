@@ -46,7 +46,6 @@ public class test {
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
         marshaller.marshal(popisOsoba, new File("xml/osobe.xml"));
     }
-
     public static void createXML() throws JAXBException, SQLException {
         List<Osobe> osobeList = new ArrayList<>();
         int rowCount = getRowCount("osobe");
@@ -88,5 +87,4 @@ public class test {
             throw new RuntimeException(e);
         }
     }
-
 }
