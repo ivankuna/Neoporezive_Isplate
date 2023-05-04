@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5095bdc5-eaf7-4f12-9c3e-9184e251fb5a" name="Changes" comment="Neoporezive isplate 03.05.2023. 002" />
+    <list default="true" id="5095bdc5-eaf7-4f12-9c3e-9184e251fb5a" name="Changes" comment="Neoporezive isplate 04.05.2023. 001">
+      <change afterPath="$PROJECT_DIR$/src/main/java/XMLWork/IsplateXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/XMLWork/OsobeXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neoporezive_isplate - ver 1.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Neoporezive_isplate - ver 1.2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Podaci/Isplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Podaci/Isplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Podaci/Osobe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Podaci/Osobe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Podaci/Isplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Podaci/Isplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Podaci/Osobe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Podaci/Osobe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/osobe.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +32,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -171,6 +185,17 @@
     </task>
     <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Neoporezive isplate 27.04.2023." />

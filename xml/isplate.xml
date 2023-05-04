@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<popisIsplata>
+    <isplata>
+        <id_isplate>1</id_isplate>
+        <id_osobe>1</id_osobe>
+        <id_vrsta_isplate>1</id_vrsta_isplate>
+        <datum_isplate>2023-05-04T00:00:00+02:00</datum_isplate>
+        <razdoblje_od>2023-05-01T00:00:00+02:00</razdoblje_od>
+        <razdoblje_do>2023-05-31T00:00:00+02:00</razdoblje_do>
+        <iznos_isplate>100.0</iznos_isplate>
+        <ime>Perica</ime>
+        <prezime>Perić</prezime>
+        <oib>11111111111</oib>
+        <iban>222222222222222222222</iban>
+        <sifra_prebivalista>33333</sifra_prebivalista>
+        <oznaka_isplate>4</oznaka_isplate>
+        <naziv_vrste_isplate>Prakitčni rad</naziv_vrste_isplate>
+        <sifra_mjesta_rada>11111</sifra_mjesta_rada>
+        <oznaka_osiguranika>22222</oznaka_osiguranika>
+        <oznaka_primitka>33333</oznaka_primitka>
+        <oznaka_neoporezivog_primitka>44</oznaka_neoporezivog_primitka>
+    </isplata>
+</popisIsplata>
