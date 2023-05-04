@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5095bdc5-eaf7-4f12-9c3e-9184e251fb5a" name="Changes" comment="Neoporezive isplate 03.05.2023. 001">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Podaci/PopisIsplata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Podaci/PopisVrstaIsplata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Podaci/Isplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Podaci/Isplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Podaci/Osobe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Podaci/Osobe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Podaci/PopisOsoba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Podaci/PopisOsoba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Podaci/Vlasnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Podaci/Vlasnik.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Podaci/Osobe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Podaci/Osobe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test.class" afterDir="false" />
-    </list>
+    <list default="true" id="5095bdc5-eaf7-4f12-9c3e-9184e251fb5a" name="Changes" comment="Neoporezive isplate 03.05.2023. 002" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683107195915</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Neoporezive isplate 03.05.2023. 002">
+      <created>1683119695144</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683119695144</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -185,7 +181,8 @@
     <MESSAGE value="Neoporezive isplate 02.05.2023. 002" />
     <MESSAGE value="Neoporezive isplate 02.05.2023. 003" />
     <MESSAGE value="Neoporezive isplate 03.05.2023. 001" />
-    <option name="LAST_COMMIT_MESSAGE" value="Neoporezive isplate 03.05.2023. 001" />
+    <MESSAGE value="Neoporezive isplate 03.05.2023. 002" />
+    <option name="LAST_COMMIT_MESSAGE" value="Neoporezive isplate 03.05.2023. 002" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
