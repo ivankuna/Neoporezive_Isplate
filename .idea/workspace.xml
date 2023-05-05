@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5095bdc5-eaf7-4f12-9c3e-9184e251fb5a" name="Changes" comment="Neoporezive isplate 04.05.2023. 001">
-      <change afterPath="$PROJECT_DIR$/src/main/java/XMLWork/IsplateXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XMLWork/OsobeXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+    <list default="true" id="5095bdc5-eaf7-4f12-9c3e-9184e251fb5a" name="Changes" comment="Neoporezive isplate 04.05.2023. 002">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Servis/XMLUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xml/osobe.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xml/vrsteIsplata.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Neoporezive_isplate - ver 1.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Neoporezive_isplate - ver 1.2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Podaci/Isplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Podaci/Isplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Podaci/Osobe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Podaci/Osobe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Podaci/Isplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Podaci/Isplate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Podaci/Osobe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Podaci/Osobe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/osobe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/XMLWork/IsplateXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/XMLWork/IsplateXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/XMLWork/OsobeXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/XMLWork/OsobeXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/XMLWork/IsplateXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/XMLWork/IsplateXML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/XMLWork/OsobeXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/XMLWork/OsobeXML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/isplate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/isplate.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,19 +59,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/betas/IdeaProjects/Neoporezive_isplate_sqlite&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/betas/IdeaProjects/Neoporezive_isplate_joppd",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Glavna" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Glavna" />
@@ -183,8 +181,18 @@
       <option name="project" value="LOCAL" />
       <updated>1683119695144</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Neoporezive isplate 04.05.2023. 002">
+      <created>1683212748799</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1683212748799</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -207,7 +215,8 @@
     <MESSAGE value="Neoporezive isplate 02.05.2023. 003" />
     <MESSAGE value="Neoporezive isplate 03.05.2023. 001" />
     <MESSAGE value="Neoporezive isplate 03.05.2023. 002" />
-    <option name="LAST_COMMIT_MESSAGE" value="Neoporezive isplate 03.05.2023. 002" />
+    <MESSAGE value="Neoporezive isplate 04.05.2023. 002" />
+    <option name="LAST_COMMIT_MESSAGE" value="Neoporezive isplate 04.05.2023. 002" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

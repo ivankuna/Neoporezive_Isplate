@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vrsta_isplate>
+    <vrstaIsplate>
+        <id_vrsta_isplate>1</id_vrsta_isplate>
+        <naziv_vrste_isplate>Prakitčni rad</naziv_vrste_isplate>
+        <sifra_mjesta_rada>11111</sifra_mjesta_rada>
+        <oznaka_osiguranika>22222</oznaka_osiguranika>
+        <oznaka_primitka>33333</oznaka_primitka>
+        <oznaka_neoporezivog_primitka>44</oznaka_neoporezivog_primitka>
+    </vrstaIsplate>
+    <vrstaIsplate>
+        <id_vrsta_isplate>2</id_vrsta_isplate>
+        <naziv_vrste_isplate>test</naziv_vrste_isplate>
+        <sifra_mjesta_rada>11111</sifra_mjesta_rada>
+        <oznaka_osiguranika>11111</oznaka_osiguranika>
+        <oznaka_primitka>11111</oznaka_primitka>
+        <oznaka_neoporezivog_primitka>11</oznaka_neoporezivog_primitka>
+    </vrstaIsplate>
+    <vrstaIsplate>
+        <id_vrsta_isplate>3</id_vrsta_isplate>
+        <naziv_vrste_isplate>123</naziv_vrste_isplate>
+        <sifra_mjesta_rada>123</sifra_mjesta_rada>
+        <oznaka_osiguranika>123</oznaka_osiguranika>
+        <oznaka_primitka>123</oznaka_primitka>
+        <oznaka_neoporezivog_primitka>12</oznaka_neoporezivog_primitka>
+    </vrstaIsplate>
+    <vrstaIsplate>
+        <id_vrsta_isplate>4</id_vrsta_isplate>
+        <naziv_vrste_isplate>2</naziv_vrste_isplate>
+        <sifra_mjesta_rada>2</sifra_mjesta_rada>
+        <oznaka_osiguranika>2</oznaka_osiguranika>
+        <oznaka_primitka>2</oznaka_primitka>
+        <oznaka_neoporezivog_primitka>2</oznaka_neoporezivog_primitka>
+    </vrstaIsplate>
+</vrsta_isplate>

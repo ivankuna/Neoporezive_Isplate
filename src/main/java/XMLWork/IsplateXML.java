@@ -26,8 +26,6 @@ public class IsplateXML {
         if(file.exists()) {
             file.delete();
             System.out.println("File deleted.");
-        } else {
-            // Do nothing
         }
 
         for (int i = 0; i < rowCount; i++) {

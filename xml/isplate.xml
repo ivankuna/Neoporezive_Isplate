@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<popisIsplata>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<isplate>
     <isplata>
         <id_isplate>1</id_isplate>
         <id_osobe>1</id_osobe>
         <id_vrsta_isplate>1</id_vrsta_isplate>
-        <datum_isplate>2023-05-04T00:00:00+02:00</datum_isplate>
-        <razdoblje_od>2023-05-01T00:00:00+02:00</razdoblje_od>
-        <razdoblje_do>2023-05-31T00:00:00+02:00</razdoblje_do>
-        <iznos_isplate>100.0</iznos_isplate>
+        <datum_isplate>2023-05-04</datum_isplate>
+        <razdoblje_od>2023-05-01</razdoblje_od>
+        <razdoblje_do>2023-05-31</razdoblje_do>
+        <iznos_isplate>100.00</iznos_isplate>
         <ime>Perica</ime>
         <prezime>Perić</prezime>
         <oib>11111111111</oib>
@@ -20,4 +20,4 @@
         <oznaka_primitka>33333</oznaka_primitka>
         <oznaka_neoporezivog_primitka>44</oznaka_neoporezivog_primitka>
     </isplata>
-</popisIsplata>
+</isplate>

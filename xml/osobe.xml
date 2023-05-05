@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<popisOsoba>
+    <osoba>
+        <id_osobe>1</id_osobe>
+        <ime>Perica</ime>
+        <prezime>Perić</prezime>
+        <oib>11111111111</oib>
+        <iban>222222222222222222222</iban>
+    </osoba>
+    <osoba>
+        <id_osobe>2</id_osobe>
+        <ime>Ivo</ime>
+        <prezime>Ivić</prezime>
+        <oib>22222222222</oib>
+        <iban>777777777777777777777</iban>
+    </osoba>
+    <osoba>
+        <id_osobe>3</id_osobe>
+        <ime>Darko</ime>
+        <prezime>Darkić</prezime>
+        <oib>99999999999</oib>
+        <iban>666666666666666666666</iban>
+    </osoba>
+    <osoba>
+        <id_osobe>6</id_osobe>
+        <ime>2</ime>
+        <prezime>2</prezime>
+        <oib>2</oib>
+        <iban>2</iban>
+    </osoba>
+    <osoba>
+        <id_osobe>7</id_osobe>
+        <ime>a</ime>
+        <prezime>a</prezime>
+        <oib>a</oib>
+        <iban>a</iban>
+    </osoba>
+    <osoba>
+        <id_osobe>8</id_osobe>
+        <ime>C</ime>
+        <prezime>C</prezime>
+        <oib>C</oib>
+        <iban>C</iban>
+    </osoba>
+</popisOsoba>
