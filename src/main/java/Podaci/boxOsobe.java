@@ -69,7 +69,6 @@ public class boxOsobe extends JDialog {
         }
     }
     public Osobe osoba;
-    Connection conn = getConnection();
     private void constructOsoba() {
         String ime = tfIme.getText();
         String prezime = tfPrezime.getText();

@@ -1,23 +1,12 @@
 package Podaci;
 
-import jakarta.xml.bind.JAXBContext;
-import jakarta.xml.bind.JAXBException;
-import jakarta.xml.bind.Marshaller;
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
-import java.io.File;
 import java.math.BigDecimal;
-import java.sql.SQLException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 
-import static Servis.DatabaseUtils.getRowCount;
-import static Servis.DatabaseUtils.readFromTable;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
